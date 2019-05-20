@@ -1,25 +1,19 @@
-/* table {
-    здесь цетрирование всей таблицы
-} */
-
 td {
     border: 1px solid black;
 }
 
-
-
-
-
-/* .bold {
-    font-weight: bold;
-} */
-
-#ghgh {
+#center {
     text-align: center;
-    font-size: 20px;
-
 }
 
 #idle {
     border: 0px solid black;
+}
+
+.grey {
+    background-color: #dadee5;
+}
+
+.light_grey {
+    background-color: #eff0f2;
 }
