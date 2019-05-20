@@ -95,19 +95,19 @@ $('p.groups').click(function () {
     switch (groupNumber) {
         case "Группа 1":
                 for (let index = group1.students.length - 1; index >= 0; index--) {
-                    $("#info").after(`<tr class="newly_added"><td class="light_grey">${group1.students[index]}</td><td>${group1.presence[0,0]}</td><td></td><td></td><td></td></tr>`);
+                    $("#info").after(`<tr class="newly_added"><td class="light_grey">${group1.students[index]}</td><td>${group1.presence[index][index]}</td><td>${group1.presence[index][index]}</td><td>${group1.presence[index][index]}</td><td>${group1.presence[index][index]}</td></tr>`);
                 };
                 break;
 
         case "Группа 2":
-                for (let index = group2.disciplines.length - 1; index >= 0; index--) {//индекс исправить
-                    $("#info").after(`<tr class="newly_added"><td class="light_grey">${group2.students[index]}</td><td>${group1.presence[0,0]}</td><td></td><td></td><td></td></tr>`);
+                for (let index = group2.disciplines.length - 1; index >= 0; index--) {
+                    $("#info").after(`<tr class="newly_added"><td class="light_grey">${group2.students[index]}</td><td>${group2.presence[index][index]}</td><td>${group2.presence[index][index]}</td><td>${group2.presence[index][index]}</td><td>${group2.presence[index][index]}</td></tr>`);
                 }; 
                 break;
 
         case "Группа 3":
-                for (let index = group3.disciplines.length - 1; index >= 0; index--) {//индекс исправить
-                    $("#info").after(`<tr class="newly_added"><td class="light_grey">${group3.students[index]}</td><td>${group1.presence[0,0]}</td><td></td><td></td><td></td></tr>`);
+                for (let index = group3.disciplines.length - 1; index >= 0; index--) {
+                    $("#info").after(`<tr class="newly_added"><td class="light_grey">${group3.students[index]}</td><td>${group3.presence[index][index]}</td><td>${group3.presence[index][index]}</td><td>${group3.presence[index][index]}</td><td>${group3.presence[index][index]}</td></tr>`);
                 };   
                 break;
 
@@ -127,6 +127,8 @@ $('p.groups').click(function () {
 });
 
 
+var arr = [[1,2], [3,4]];
+console.log(arr[0][0]);
 
 
 
