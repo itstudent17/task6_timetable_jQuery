@@ -1,11 +1,14 @@
+/*границы для основной таблицы*/
 td {
     border: 1px solid black;
 }
 
-#center {
+/*центрирование названий блоков в таблице*/
+.table {
     text-align: center;
 }
 
+/* скрыли ненужную ячейку внизу */
 #idle {
     border: 0px solid black;
 }
