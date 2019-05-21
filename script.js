@@ -117,7 +117,7 @@ $('p.groups').click(function () {
 });
 });
 
-//кнопка для быстрой перезагруки страницы
+//кнопка для перезагруки страницы
 $('button').click(function() {
     location.reload();
 });
