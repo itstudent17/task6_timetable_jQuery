@@ -13,6 +13,7 @@ td {
     border: 0px solid black;
 }
 
+/* заливка шапки таблицы и первого столбца */
 .grey {
     background-color: #dadee5;
 }
